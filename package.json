@@ -1,0 +1,19 @@
+{
+  "name": "stagehand-research",
+  "version": "1.0.0",
+  "description": "Stagehand research and test project",
+  "type": "module",
+  "scripts": {
+    "demo": "npx tsx test-stagehand.ts",
+    "start": "npx tsx test-stagehand.ts"
+  },
+  "dependencies": {
+    "@browserbasehq/stagehand": "^3.6.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
